@@ -5,7 +5,7 @@ Documentation by [Jared Frank](https://github.com/jfrank1120)
 # Required Tools for this Project
 1.	Git Bash - https://git-scm.com/download/win or any preferred bash shell (I highly reccommend this one)
 2.	Python 3.6.5 - https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
-> Note – The 64bit version is needed in for this project, **32bit will not work**
+> Note – The 64bit version of python is needed in for this project, **32bit will not work**
 3.	Android Studio - https://developer.android.com/studio/
 
 
