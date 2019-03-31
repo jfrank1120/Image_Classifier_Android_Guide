@@ -1,8 +1,8 @@
-## Creating an Image Classifier on Android using Tensorflow 
+# Creating an Image Classifier on Android using Tensorflow 
 
 Documentation by [Jared Frank](https://github.com/jfrank1120)
 
-# Required Tools for this Project
+## Required Tools for this Project
 1.	Git Bash - https://git-scm.com/download/win or any preferred bash shell (I highly reccommend this one)
 2.	Python 3.6.5 - https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
 > Note – The 64bit version of python is needed in for this project, **32bit will not work**
@@ -10,7 +10,7 @@ Documentation by [Jared Frank](https://github.com/jfrank1120)
 
 
 
-# How to Install Tensorflow to your machine
+## How to Install Tensorflow to your machine
 Tensorflow is a robust machine learning tool that allows for not only classical machine learning to be done, but also neural network creation and such.
 1.	Download the [Tensorflow library](https://github.com/tensorflow/tensorflow) (Green button on the far right) 
 
@@ -20,7 +20,7 @@ Tensorflow is a robust machine learning tool that allows for not only classical 
 
 
 
-# Downloading necessary files for Training
+## Downloading necessary files for Training
 This section will contain all of the links and instructions for retrieving the files that are needed to successfully train a Tensorflow graph for image processing. All of the following files should be added to the TF_Files folder to allow for easier access when training.
 1.	The pre-trained model that we will do learning transfer on [Link](http://download.tensorflow.org/models/inception_v4_2016_09_09.tar.gz)
 Once this file has been downloaded you will use bash and go into its directory and use the following command:
@@ -44,7 +44,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 
 
-# Adding Image Data for Training
+## Adding Image Data for Training
 This section will explain how to format images so that you can properly train the network for the image or images that you want
 1.	Create a folder within TF_Files named ‘ImageData’.
 2.	Within that folder create as many sub-folders as objects you would like to detect with your network. EX- Nickel, Dime, Penny, etc
@@ -52,7 +52,7 @@ This section will explain how to format images so that you can properly train th
 
 
 
-# Training the Network with your Images
+## Training the Network with your Images
 1.	Before you attempt to this step make sure that python is correctly working within your bash shell by attempting the following command:
 ```
 where python
@@ -131,7 +131,7 @@ python tensorflow-master/tensorflow/python/tools/optimized_for_interference.py \
 
 
 
-# Android Implementation
+## Android Integration
 1.	In Bash Shell go to the directory where you would like to create your android project in
 2.	Once in that location type the following command in your git bash shell:
 ```
@@ -158,7 +158,7 @@ III.	After this has been done, all you have to do is change the variables ‘MOD
 
 
 
-# External Resources 
+## External Resources 
 [General Guide on Training](http://nilhcem.com/android/custom-tensorflow-classifier)
 
 [Finding Input and Output Nodes](https://stackoverflow.com/questions/43517959/given-a-tensor-flow-model-graph-how-to-find-the-input-node-and-output-node-name)
