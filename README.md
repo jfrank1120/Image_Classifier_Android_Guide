@@ -156,7 +156,8 @@ III.	After this has been done, all you have to do is change the variables ‘MOD
 5.  After all these steps have been completed you can compile and run your android app 
 
 
-
+## Further Help
+In the case of any issues with the program check [this file](./Trouble-Shooting.md)
 
 ## External Resources 
 [General Guide on Training](http://nilhcem.com/android/custom-tensorflow-classifier)
