@@ -143,15 +143,15 @@ git clone https://github.com/Nilhcem/tensorflow-classifier-android
 4.	Here you need to make three changes to then successfully compile and run the app
 I.	Under the ‘Assets’ folder on the right hand side of the project you need to add both the .pb file as well as the labels .txt file:
 
-[As Seen Here](https://drive.google.com/open?id=1L_J4XrvFNM784KSGyBCCwzEjayxZ-gkx)
+![](./gistImg1.png)
 
 II.	After this you need to go into the ‘ClassifierActivity.java’ file and change the variables ‘INPUT_NAME’ and ‘OUTPUT_NAME’ to the input and output variables that you retrieved from the python script you ran in a previous step:
 
-[As Seen Here](https://drive.google.com/open?id=18-OjQcViL1a00hzmprxUXfcehnEev3SY)
+![As Seen Here](./gistImg2.png)
  
 III.	After this has been done, all you have to do is change the variables ‘MODEL_FILE’ and ‘LABEL_FILE’ to the corresponding name of the files that you just added to the asset folder:
 
-[As Seen Here](https://drive.google.com/open?id=1fJjiGrxoHFHuXWQx9YNdSi6sIqslGtim)
+![As Seen Here](./gistImg3.png)
  
 5.  After all these steps have been completed you can compile and run your android app 
 
